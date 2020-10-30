@@ -1,6 +1,13 @@
 section {
-  display: block;
-  background-color: cornflowerblue;
+  background-color: #0affc2;
   height: 400px;
+}
 
+.banner-heading {
+  display: inline-block;
+  text-align: center
+}
+
+.ambition {
+  text-align: center;
 }

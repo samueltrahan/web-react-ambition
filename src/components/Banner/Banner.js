@@ -6,8 +6,8 @@ export default function Landing() {
     <>
       <section className="major">
         <div className="landing-section">
-          <header>
-            <h1>Ambition</h1>
+          <header className="banner-heading">
+            <h1 className="ambition">Ambition</h1>
           </header>
           <div className="content">
             <p>

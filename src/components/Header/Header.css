@@ -1,0 +1,14 @@
+#header {
+  background-color: #0AFFC2;
+  height: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  width: 80px;
+}
