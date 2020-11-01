@@ -1,22 +1,23 @@
 import React from "react";
-import './Banner.css';
+import "./Banner.css";
 
 export default function Landing() {
   return (
     <>
       <section className="major">
-        <div className="landing-section">
+        <div className="landing-heading">
           <header className="banner-heading">
             <h1 className="ambition">Ambition</h1>
+            <div className="content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                quasi quam sint reprehenderit eius.
+              </p>
+            </div>
           </header>
-          <div className="content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              quasi quam sint reprehenderit eius vitae harum molestiae? Placeat
-              aliquid, impedit, deleniti sunt, ratione natus pariatur fugit
-              eveniet nesciunt sit explicabo.
-            </p>
-          </div>
+        </div>
+        <div className="get-started-btn">
+        <button id="get-started" className=" ui inverted purple button">Get Started</button>
         </div>
       </section>
     </>

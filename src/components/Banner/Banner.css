@@ -3,11 +3,33 @@ section {
   height: 400px;
 }
 
+.landing-heading {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
 .banner-heading {
   display: inline-block;
-  text-align: center
+  text-align: center;
+  margin-top: 100px;
 }
 
 .ambition {
   text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 70px;
+}
+
+.get-started-btn {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 30px;
+}
+
+#get-started {
+  font-size: 20px;
+  height: 60px;
+  width: 170px;
 }
