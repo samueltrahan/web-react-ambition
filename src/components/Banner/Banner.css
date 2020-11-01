@@ -1,4 +1,4 @@
-section {
+.major {
   background-color: #0affc2;
   height: 400px;
 }
@@ -17,7 +17,7 @@ section {
 
 .ambition {
   text-align: center;
-  font-family: 'Monoton', cursive;
+  font-family: 'Audiowide', cursive;
   font-size: 70px;
 }
 

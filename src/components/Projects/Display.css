@@ -1,0 +1,23 @@
+.minor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.idea-1 {
+  height: 400px;
+  border: 1px solid blue
+}
+
+.idea-2 {
+  height: 400px;
+  border: 1px solid blue;
+}
+.idea-3 {
+  height: 400px;
+  border: 1px solid blue;
+}
+.idea-4 {
+  height: 400px;
+  border: 1px solid blue;
+}

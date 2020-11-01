@@ -1,7 +1,7 @@
 import React from 'react';
 import Landing from './components/Banner/Banner';
 import Header from './components/Header/Header';
-import Projects from './components/Projects/Projects';
+import Display from './components/Projects/Display';
 import './App.css';
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
     <div>
       <Header />
       <Landing />
-      <Projects />
+      <Display />
     </div>
   )
 }
