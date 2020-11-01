@@ -17,7 +17,7 @@ export default function Landing() {
           </header>
         </div>
         <div className="get-started-btn">
-        <button id="get-started" className=" ui inverted purple button">Get Started</button>
+        <button id="get-started" className=" ui inverted purple button" type="submit">Get Started<i className="arrow right icon"></i></button>
         </div>
       </section>
     </>

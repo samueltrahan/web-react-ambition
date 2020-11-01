@@ -17,8 +17,12 @@ section {
 
 .ambition {
   text-align: center;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Monoton', cursive;
   font-size: 70px;
+}
+
+.content {
+  font-size: large;
 }
 
 .get-started-btn {
@@ -31,5 +35,5 @@ section {
 #get-started {
   font-size: 20px;
   height: 60px;
-  width: 170px;
+  width: 200px;
 }
