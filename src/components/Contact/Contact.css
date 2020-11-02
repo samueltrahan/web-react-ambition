@@ -9,9 +9,10 @@
 
 
 label {
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Audiowide', cursive;
   margin-left: 10px;
+  text-shadow: 1px 1px 1px #0AFFC2;
 }
 
 .name-email {

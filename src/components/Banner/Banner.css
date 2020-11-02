@@ -20,6 +20,7 @@
   font-family: 'Audiowide', cursive;
   font-size: 70px;
   color: rgba(97, 83, 204);
+  text-shadow: 3px 3px 3px black;
 }
 
 .content {

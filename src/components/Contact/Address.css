@@ -5,4 +5,15 @@
 h3 {
   font-family: 'Audiowide', cursive;
   font-size: 30px;
+  text-shadow: 1px 1px 1px #0AFFC2;
+}
+
+.city-country {
+  color: #0AFFC2;
+  font-size: 20px;
+}
+
+.email-address {
+  color: #0AFFC2;
+  font-size: 20px;
 }

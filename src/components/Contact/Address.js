@@ -8,12 +8,12 @@ export default function Address() {
               <div className="contact-method">
                 <span className="email"></span>
                 <h3>Email:</h3>
-                <a href="/">cinquewebdev@gmail.com</a>
+                <a className="email-address" href="/">cinquewebdev@gmail.com</a>
               </div>
               <div className="contact-method">
                 <span className="address"></span>
                 <h3>Address:</h3>
-                <span>
+                <span className="city-country">
                  Lafayette, LA
                  <br />
                  United States of America
