@@ -1,14 +1,12 @@
-.contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 
-.form {
+
+.inner-form {
   grid-column: 1/2;
-  border: 1px solid blue;
   background-color: rgba(97,83,204);
   height: 410px;
+  width: 65vw;
 }
+
 
 label {
   font-size: 20px;
@@ -35,10 +33,6 @@ label {
   border: 1px solid #0AFFC2;
 }
 
-.split {
-  grid-column: 2/2;
-  border: 1px solid blue;
-}
 
 ul {
   list-style-type: none;
@@ -56,6 +50,10 @@ li {
   width: 25vw;
   caret-color: #0Affc2;
   margin-left: 10px;
+}
+
+textarea {
+  caret-color: #0AFFC2;
 }
 
 

@@ -1,10 +1,12 @@
 import React from "react";
+import Address from './Address'
 import "./Contact.css";
 
 export default function Contact() {
   return (
     <>
-      <section className="contact">
+    <div>
+      <section className="inner-form">
         <div className="inner">
           <section className="form">
             <form>
@@ -37,24 +39,9 @@ export default function Contact() {
               </ul>
             </form>
           </section>
-          <section className="split">
-              <div className="contact-method">
-                <span className="email"></span>
-                <h3>Email:</h3>
-                <a href="/">cinquewebdev@gmail.com</a>
-              </div>
-              <div className="contact-method">
-                <span className="address"></span>
-                <h3>Address:</h3>
-                <span>
-                 Lafayette, LA
-                 <br />
-                 United States of America
-                </span>
-              </div>
-          </section>
         </div>
       </section>
+    </div>
     </>
   );
 }

@@ -3,3 +3,17 @@ body {
   box-sizing: border-box;
 }
 
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(97, 83, 204);
+}
+
+.contact-info {
+  border: 1px solid #0AFFC2;
+}
+
+.address-info {
+  border: 1px solid #0AFFC2;
+}
+
