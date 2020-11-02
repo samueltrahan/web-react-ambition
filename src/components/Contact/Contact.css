@@ -1,0 +1,61 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form {
+  grid-column: 1/2;
+  border: 1px solid blue;
+  background-color: rgba(97,83,204);
+  height: 410px;
+}
+
+label {
+  font-size: 20px;
+  font-family: 'Audiowide', cursive;
+  margin-left: 10px;
+}
+
+.name-email {
+  display: inline;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+
+
+.field {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#message {
+  background-color: rgba(97,83,204);
+  width: 45vw;
+  border: 1px solid #0AFFC2;
+}
+
+.split {
+  grid-column: 2/2;
+  border: 1px solid blue;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+.input-field {
+  background-color: rgba(97,83,204);
+  border: 1px solid #0Affc2;
+  height: 35px;
+  width: 25vw;
+  caret-color: #0Affc2;
+  margin-left: 10px;
+}
+
+

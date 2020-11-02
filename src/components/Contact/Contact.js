@@ -6,18 +6,20 @@ export default function Contact() {
     <>
       <section className="contact">
         <div className="inner">
-          <section>
+          <section className="form">
             <form>
-              <div className="first-half-field">
-                <label htmlFor="name">Name:</label>
-                <input type="text" name="name" />
+              <div className="name-email">
+              <div className=" name">
+                <label htmlFor="name">Name:</label><br />
+                <input className="input-field"  type="text" name="name" />
               </div>
-              <div className="half-field">
-                <label htmlFor="email">Email:</label>
-                <input type="text" name="email"></input>
+              <div className=" email">
+                <label htmlFor="email">Email:</label><br />
+                <input className="input-field"  type="text" name="email" id="emai"></input>
+              </div>
               </div>
               <div className="field">
-                <label htmlFor="message">Message:</label>
+                <label htmlFor="message">Message:</label><br />
                 <textarea
                   name="message"
                   id="message"
@@ -27,10 +29,10 @@ export default function Contact() {
               </div>
               <ul>
                 <li>
-                  <input type="submit" value="Send Message"></input>
+                  <input className=" send-btn ui inverted teal button" type="submit" value="Send Message"></input>
                 </li>
                 <li>
-                  <input type="reset" value="Clear"></input>
+                  <input className=" clear-btn ui inverted teal button" type="reset" value="Clear"></input>
                 </li>
               </ul>
             </form>
