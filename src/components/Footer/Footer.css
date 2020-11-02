@@ -1,0 +1,19 @@
+.footer {
+  background-color: #0AFFC2;
+  height: 70px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cinque-icon {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.copy-right {
+  display: inline;
+}
