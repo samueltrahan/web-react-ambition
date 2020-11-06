@@ -1,5 +1,4 @@
 import React from "react";
-import Address from './Address'
 import "./Contact.css";
 
 export default function Contact() {
